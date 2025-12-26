@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giới thiệu bản thân  Nguyễn Văn A</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      margin: 0;
+      background: #f4f6fb;
+    }
+
+    header {
+      background: #2b6cb0;
+      color: white;
+      padding: 24px 40px;
+    }
+
+    header h1 {
+      margin: 0 0 6px;
+    }
+
+    nav {
+      background: #1f4f82;
+      padding: 10px 40px;
+    }
+
+    nav a {
+      color: #fff;
+      margin-right: 14px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 24px auto;
+      padding: 0 20px 40px;
+    }
+
+    section {
+      background: white;
+      padding: 18px 22px;
+      margin-bottom: 16px;
+      border-radius: 14px;
+      box-shadow: 0 6px 14px rgba(0,0,0,.05);
+    }
+
+    img {
+      width: 220px;
+      border-radius: 16px;
+      display: block;
+      margin-bottom: 14px;
+    }
+
+    ul {
+      margin-top: 8px;
+    }
+
+    mark {
+      background: #ffe066;
+    }
+
+    footer {
+      text-align: center;
+      padding: 18px;
+      color: #777;
+    }
+
+    .links a {
+      color: #2b6cb0;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Nguyễn Văn A</h1>
+    <p>Sinh viên ngành Công nghệ Thông tin</p>
+  </header>
+
+  <nav>
+    <a href="#gioi-thieu">Giới thiệu</a>
+    <a href="#so-thich">Sở thích</a>
+    <a href="#muc-tieu">Mục tiêu</a>
+    <a href="#lien-ket">Liên kết</a>
+  </nav>
+
+  <main>
+    <section id="gioi-thieu">
+      <h2>Giới thiệu</h2>
+      <img src="Screenshot 2025-12-25 154653.png" alt="Ảnh chân dung Nguyễn Văn A" />
+      <p>
+        Xin chào! Mình là <strong>Nguyễn Văn A</strong>, hiện là sinh viên năm nhất.
+        Mình đang học các kiến thức cơ bản về <mark>HTML</mark>, <mark>CSS</mark> và
+        <mark>JavaScript</mark> để bắt đầu xây dựng các trang web đầu tiên.
+      </p>
+    </section>
+
+    <section id="so-thich">
+      <h2>Sở thích</h2>
+      <ul>
+        <li>Chạy bộ</li>
+        <li>Đọc sách</li>
+        <li>Du lịch</li>
+      </ul>
+    </section>
+
+    <section id="muc-tieu">
+      <h2>Mục tiêu học tập</h2>
+      <ol>
+        <li>Hoàn thành khóa học HTML cơ bản</li>
+        <li>Tạo trang web cá nhân đầu tiên</li>
+        <li>Tiếp tục học CSS và JavaScript</li>
+      </ol>
+    </section>
+
+    <section id="lien-ket" class="links">
+      <h2>Liên kết yêu thích</h2>
+      <ul>
+        <li><a href="#">Facebook cá nhân</a></li>
+        <li><a href="https://www.w3schools.com" target="_blank" title="Học lập trình miễn phí">Trang học lập trình (W3Schools)</a></li>
+        <li><a href="#top">Quay lại đầu trang</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Ví dụ Block vs Inline</h2>
+      <p>Đây là thẻ P (Block Element).</p>
+      <p>Đây cũng là thẻ P (Block Element).</p>
+      <span>Đây là span (Inline Element)</span>
+      <span>— nó nằm cùng dòng.</span>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 — Nguyễn Văn A. Học & luyện tập mỗi ngày!
+  </footer>
+</body>
+</html>
